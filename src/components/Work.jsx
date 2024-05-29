@@ -1,53 +1,201 @@
-const experiences = [
-    {
-      id: 1,
-      name: "Klover Cloud [ 31/12/2021 – 01/04/2022 ]",
-      city:
-        "Dhaka, Bangladesh",
-      position: "Software Developer",
-        image: "src/assets/skills-2.png",
-    },
-    {
-      id: 2,
-      name: "Automation Research Center [ 01/06/2022 – 30/06/2023 ]",
-      city:
-        "Dhaka, Bangladesh",
-        position: "Software Developer",
-        image: "src/assets/skills-2.png",
-    },
-    {
-      id: 3,
-      name: "Popular Diagnostic Centre Ltd. Dhanmondi [ 01/08/2023 – Current ]",
-      city:
-        "Dhaka, Bangladesh",
-        position: "IT Officer",
-        image: "src/assets/skills-2.png",
-    },
-    
-  ];
+import { PaperClipIcon } from '@heroicons/react/20/solid'
+
+
 
 const Work = () => {
 
   return (
-    <div className="lg:mx-12 mx-4 py-32"  id="experience">
-      <div className="mb-20">
-       
-        <h2 className="md:text-5xl text-4xl text-center text-headingcolor  font-bold">JOB EXPERIENCE</h2>
-      </div>
-
-
-      {/* experienceis card */}
-      <div className=" grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 max-w-7xl mx-auto">
-        {
-            experiences.map( experience => <div key={experience.id} className="bg-bgShade p-8 rounded-lg cursor-pointer hover:-translate-y-5 transition-all duration-300">
-                <img src={experience.image} alt="" className="w-14 h-14 p-3 bg-white bg-white rounded-lg shadow-md mb-7"/>
-                <h3 className="text-2xl font-bold mb-4">{experience.name}</h3>
-                <p>{experience.city}</p>
-                <p>{experience.position}</p>
-            </div>)
-        }
-      </div>
+    <div className='max-w-7xl  mx-auto mt-20' id="experience">
+    <div className="px-4  sm:px-0">
+      <h3 className="text-base font-semibold leading-7 text-center text-gray-900">Work Experiences</h3>
+      <p className="mt-1  text-sm leading-6 text-center text-gray-500">Personal details About Previous & Current Work Sectors.</p>
     </div>
+    <div className="mt-6 border-t border-gray-100">
+      <dl className="divide-y divide-gray-100">
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Full name</dt>
+          <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Md. Sakib Kamal</dd>
+        </div>
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Mobile</dt>
+          <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">01921777053</dd>
+        </div>
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Email address</dt>
+          <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">sakibkamal0017@gmail.com</dd>
+        </div>
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Role</dt>
+          <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Mern Stack Developer</dd>
+        </div>
+        <div className='p-5'>
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Name of Company</dt>
+          <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Klower Cloud</dd>
+        </div>
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Designation</dt>
+          <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+            Software Developer
+          </dd>
+        </div>
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Duration</dt>
+          <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+            1st Decembor 2021 - 28 February 2022
+          </dd>
+        </div>
+        
+        
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Attachments</dt>
+          <dd className="mt-2 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
+            <ul role="list" className="divide-y divide-gray-100 rounded-md border border-gray-200">
+              <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
+                <div className="flex w-0 flex-1 items-center">
+                  <PaperClipIcon className="h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
+                  <div className="ml-4 flex min-w-0 flex-1 gap-2">
+                    <span className="truncate font-medium">resume_back_end_developer.pdf</span>
+                    <span className="flex-shrink-0 text-gray-400">2.4mb</span>
+                  </div>
+                </div>
+                <div className="ml-4 flex-shrink-0">
+                  <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                    Download
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
+                <div className="flex w-0 flex-1 items-center">
+                  <PaperClipIcon className="h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
+                  <div className="ml-4 flex min-w-0 flex-1 gap-2">
+                    <span className="truncate font-medium">coverletter_back_end_developer.pdf</span>
+                    <span className="flex-shrink-0 text-gray-400">4.5mb</span>
+                  </div>
+                </div>
+                <div className="ml-4 flex-shrink-0">
+                  <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                    Download
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </dd>
+        </div>
+        </div>
+        <div className='p-5'>
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Name of Company</dt>
+          <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Automation Research Centre</dd>
+        </div>
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Designation</dt>
+          <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+            Software Developer
+          </dd>
+        </div>
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Duration</dt>
+          <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+            1st July 2022 - 31 July 2023
+          </dd>
+        </div>
+        
+        
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Attachments</dt>
+          <dd className="mt-2 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
+            <ul role="list" className="divide-y divide-gray-100 rounded-md border border-gray-200">
+              <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
+                <div className="flex w-0 flex-1 items-center">
+                  <PaperClipIcon className="h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
+                  <div className="ml-4 flex min-w-0 flex-1 gap-2">
+                    <span className="truncate font-medium">resume_back_end_developer.pdf</span>
+                    <span className="flex-shrink-0 text-gray-400">2.4mb</span>
+                  </div>
+                </div>
+                <div className="ml-4 flex-shrink-0">
+                  <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                    Download
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
+                <div className="flex w-0 flex-1 items-center">
+                  <PaperClipIcon className="h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
+                  <div className="ml-4 flex min-w-0 flex-1 gap-2">
+                    <span className="truncate font-medium">coverletter_back_end_developer.pdf</span>
+                    <span className="flex-shrink-0 text-gray-400">4.5mb</span>
+                  </div>
+                </div>
+                <div className="ml-4 flex-shrink-0">
+                  <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                    Download
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </dd>
+        </div>
+        </div>
+        <div className='p-5'>
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Name of Company</dt>
+          <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Popular Dignostic Centre Ltd. (Head Office)</dd>
+        </div>
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Designation</dt>
+          <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+            IT Officer
+          </dd>
+        </div>
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Duration</dt>
+          <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+            1st August 2023 - Current
+          </dd>
+        </div>
+        
+        
+        <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+          <dt className="text-sm font-medium leading-6 text-gray-900">Attachments</dt>
+          <dd className="mt-2 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
+            <ul role="list" className="divide-y divide-gray-100 rounded-md border border-gray-200">
+              <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
+                <div className="flex w-0 flex-1 items-center">
+                  <PaperClipIcon className="h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
+                  <div className="ml-4 flex min-w-0 flex-1 gap-2">
+                    <span className="truncate font-medium">resume_back_end_developer.pdf</span>
+                    <span className="flex-shrink-0 text-gray-400">2.4mb</span>
+                  </div>
+                </div>
+                <div className="ml-4 flex-shrink-0">
+                  <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                    Download
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
+                <div className="flex w-0 flex-1 items-center">
+                  <PaperClipIcon className="h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
+                  <div className="ml-4 flex min-w-0 flex-1 gap-2">
+                    <span className="truncate font-medium">coverletter_back_end_developer.pdf</span>
+                    <span className="flex-shrink-0 text-gray-400">4.5mb</span>
+                  </div>
+                </div>
+                <div className="ml-4 flex-shrink-0">
+                  <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                    Download
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </dd>
+        </div>
+        </div>
+      </dl>
+    </div>
+  </div>
   );
 };
 
