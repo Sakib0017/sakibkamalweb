@@ -16,7 +16,7 @@ const Home = () => {
             I Am <span className="text-primary">A web Designer</span> & Web Developer
           </h1>
           <p className="text-2xl text-body leading-9 mb-8">
-            I'm An Computer Science Engineer From A Reputed University at Dhaka. If you need You Can Hire me.
+            I'm An Computer Science Engineer From A Reputed University at Dhaka.
           </p>
          
         </div>
