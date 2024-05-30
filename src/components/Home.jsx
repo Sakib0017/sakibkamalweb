@@ -22,7 +22,7 @@ const Home = () => {
             I Am <span className="text-primary">A Full Stack</span> Web Developer
           </h1>
           <p className="text-2xl text-body leading-9 mb-8">
-            I'm An Computer Science Engineer From A Reputed University from Bangladesh.
+            I'm A Computer Science Engineer From Daffodil International University.
           </p>
          
         </div>
