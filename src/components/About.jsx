@@ -3,13 +3,15 @@
 const About = () => {
 
   return (
-    <div className='max-w-7xl  mx-auto mt-20' id="about">
+    <div className='max-w-7xl bg-[#33ddff]/20 rounded m-5 shadow-2xl p-10 mx-auto mt-20' id="about">
     <div className="px-4  sm:px-0">
-      <h3 className="text-base font-semibold leading-7 text-center text-gray-900">About Me</h3>
-      <p className="mt-1  text-sm leading-6 text-center text-gray-500">Personal details </p>
+      <h3 className="text-base font-semibold text-[32px] leading-7 text-center text-gray-900">About Me</h3>
+      
     </div>
-    <div className="mt-6 border-t border-gray-100">
-      <dl className="divide-y divide-gray-100">
+    <div className="grid md:grid-cols-2">
+        <div className="col-span-1">
+    <div className="mt-6 ">
+      
         <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
           <dt className="text-sm font-medium leading-6 text-gray-900">Full name</dt>
           <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Md. Sakib Kamal</dd>
@@ -22,6 +24,13 @@ const About = () => {
           <dt className="text-sm font-medium leading-6 text-gray-900">Email address</dt>
           <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">sakibkamal0017@gmail.com</dd>
         </div>
+     
+      </div>
+      </div>
+      <div className="col-span-1">
+    <div className="mt-6 ">
+     
+       
         <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
           <dt className="text-sm font-medium leading-6 text-gray-900">Role</dt>
           <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Mern Stack Developer</dd>
@@ -35,8 +44,8 @@ const About = () => {
           <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Kazipara Bus Stand, Mirpur 10, Dhaka.</dd>
         </div>
        
-       
-      </dl>
+      </div>
+      </div>
     </div>
   </div>
   );
