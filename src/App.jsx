@@ -10,6 +10,7 @@ import Work from './components/Work'
 import Training from './components/Training'
 import Languages from './components/Languages'
 import Project from './components/Project'
+import About from './components/About'
 function App() {
   
 
@@ -17,6 +18,7 @@ function App() {
     <>
     <Navbar/>
     <Home/>
+    <About />
     <Work />
     <Skills/>
     <Training />

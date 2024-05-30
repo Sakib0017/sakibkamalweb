@@ -45,6 +45,9 @@ const Navbar = () => {
             >
               Home
             </Link>
+            <Link activeClass="active" smooth={true} spy={true} offset={-100}  to="about" className="block hover:text-gray-400 py-2 px-4 cursor-pointer">
+              About me
+            </Link>
             <Link activeClass="active" smooth={true} spy={true} offset={-100}  to="experience" className="block hover:text-gray-400 py-2 px-4 cursor-pointer">
               Experience
             </Link>
