@@ -35,7 +35,10 @@ const Navbar = () => {
       >
         <div className="flex items-center max-w-7xl mx-auto">
           <div className="text-white me-auto font-bold text-lg cursor-pointer">
-          <h1>Sakib.dev</h1>
+          <Link  
+              to="/"
+             
+            ><h1>Sakib.dev</h1></Link>
           
           </div>
          
