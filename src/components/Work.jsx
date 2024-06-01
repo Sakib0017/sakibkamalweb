@@ -1,10 +1,13 @@
 import { PaperClipIcon } from '@heroicons/react/20/solid'
 
+import Navbar from "./Navbar";
 
 
 const Work = () => {
 
   return (
+    <>
+    <Navbar/>
     <div className='max-w-7xl  mx-auto mt-20' id="experience">
     <div className="px-4  sm:px-0">
       <h3 className="text-base font-semibold leading-7 text-center text-gray-900">Work Experiences</h3>
@@ -181,6 +184,7 @@ const Work = () => {
       </dl>
     </div>
   </div>
+  </>
   );
 };
 

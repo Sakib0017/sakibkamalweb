@@ -1,3 +1,5 @@
+
+import Navbar from "./Navbar";
 const skills = [
     {
       id: 1,
@@ -26,6 +28,8 @@ const skills = [
 const Skills = () => {
 
   return (
+    <>
+    <Navbar/>
     <div className="lg:mx-12 mx-4 py-32" id="skills">
       <div className="mb-20">
         
@@ -44,6 +48,7 @@ const Skills = () => {
         }
       </div>
     </div>
+    </>
   );
 };
 

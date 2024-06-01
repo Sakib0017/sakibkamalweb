@@ -1,9 +1,12 @@
 
 
+import Navbar from "./Navbar";
 const About = () => {
 
   return (
-    <div className='max-w-7xl bg-[#33ddff]/20 rounded m-5 shadow-2xl p-10 mx-auto mt-20' id="about">
+    <>
+    <Navbar/>
+    <div className='max-w-7xl bg-[#33ddff]/20 rounded m-5 shadow-2xl p-10 mx-auto mt-20'>
     <div className="px-4  sm:px-0">
       <h3 className="text-base font-semibold text-[32px] leading-7 text-center text-gray-900">About Me</h3>
       
@@ -48,6 +51,7 @@ const About = () => {
       </div>
     </div>
   </div>
+  </>
   );
 };
 
