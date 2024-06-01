@@ -1,0 +1,43 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/about",
+            "dest": "/"
+        },
+        {
+            "src": "/experience",
+            "dest": "/"
+        },
+        {
+            "src": "/skills",
+            "dest": "/"
+        },
+        {
+            "src": "/training",
+            "dest": "/"
+        },
+        {
+            "src": "/languages",
+            "dest": "/"
+        },
+        {
+            "src": "/project",
+            "dest": "/"
+        },
+        {
+            "src": "/testimonials",
+            "dest": "/"
+        },
+        {
+            "src": "/contact",
+            "dest": "/"
+        }
+       
+        
+        
+    ]
+}
