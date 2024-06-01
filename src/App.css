@@ -13,3 +13,14 @@ header{
     @apply px-8 py-4 bg-primary text-xl text-white rounded hover:bg-body hover:text-white transition-all duration-300;
 }
 
+@keyframes slide-in {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
