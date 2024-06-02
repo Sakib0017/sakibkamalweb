@@ -6,12 +6,12 @@ const Home = () => {
   return (
   
     <div className=" bg-[#33ddff]/20 fixed w-screen top-0 left-0" id="home">
-      <div className="lg:px-12 px-4 relative max-w-7xl mx-auto h-screen flex flex-col md:flex-row-reverse items-center justify-between py-24 gap-5">
+      <div className="lg:px-12 px-4 relative max-w-7xl mx-auto h-auto flex flex-col md:flex-row-reverse items-center justify-between py-24 gap-5">
       <div className="mx-auto  justify-center items-center ">
 
       <div className="mx-auto relative  justify-center items-center ">
                     
-                    <img  src={banner}  className="mx-auto justify-center items-center   animate-slide-in border-[30px] border  border-primary/50    rounded-full  h-[400] w-[400px] " />
+                    <img  src={banner}  className="mx-auto justify-center items-center   animate-slide-in border-[30px] border  border-primary/50    rounded-full  h-[500] w-[500px] " />
                     
                     
                 </div>
