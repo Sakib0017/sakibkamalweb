@@ -1,6 +1,3 @@
-
-import Navbar from "./Navbar";
-
 const experiences = [
   {
     id: 1,
@@ -29,8 +26,6 @@ const experiences = [
 const Testimonial = () => {
 
 return (
-  <>
-  <Navbar/>
   <div className="lg:mx-12 mx-4 py-32" id="testimonials">
     <div className="mb-20">
      
@@ -49,7 +44,6 @@ return (
       }
     </div>
   </div>
-  </>
 );
 };
 

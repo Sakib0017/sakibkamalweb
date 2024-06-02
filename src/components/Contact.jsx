@@ -1,10 +1,5 @@
-
-import Navbar from "./Navbar";
-
 const Contact = () => {
   return (
-    <>
-    <Navbar/>
     <div className="lg:px-12 px-4">
       <div className="mb-20 text-center">
         <p className="text-xl text-headingcolor font-semibold mb-5">
@@ -119,7 +114,6 @@ const Contact = () => {
       </div>
       
     </div>
-    </>
   );
 };
 
